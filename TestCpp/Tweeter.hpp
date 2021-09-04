@@ -5,8 +5,8 @@
 //  Created by Richard Orchard on 04/09/2021.
 //
 
-#ifndef InheritedPerson_hpp
-#define InheritedPerson_hpp
+#ifndef Tweeter_hpp
+#define Tweeter_hpp
 
 #include <stdio.h>
 #include "Person.hpp"
@@ -16,9 +16,13 @@
 
 class Tweeter : public Person
 {
+private:
+std::string twitterHandle;
     
 public:
-    std::string getGender();
+    Tweeter(std::string first, std::string last, int number, std::string handle);
+    ~Tweeter();
+    std::string getHandle();
     
 };
 

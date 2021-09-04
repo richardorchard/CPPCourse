@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5345988426E36C6900F878CF /* Tweeter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5345988326E36C6900F878CF /* Tweeter.cpp */; };
 		53B72C2226E25DDD0084D89E /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53B72C2026E25DDD0084D89E /* Person.cpp */; };
 		53CA141E26E244C400E00A00 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53CA141D26E244C400E00A00 /* main.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5345988126E369F600F878CF /* Tweeter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tweeter.hpp; sourceTree = "<group>"; };
+		5345988326E36C6900F878CF /* Tweeter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tweeter.cpp; sourceTree = "<group>"; };
 		53B72C2026E25DDD0084D89E /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
 		53B72C2126E25DDD0084D89E /* Person.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
 		53CA141A26E244C400E00A00 /* TestCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestCpp; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,9 +63,11 @@
 		53CA141C26E244C400E00A00 /* TestCpp */ = {
 			isa = PBXGroup;
 			children = (
+				5345988326E36C6900F878CF /* Tweeter.cpp */,
 				53CA141D26E244C400E00A00 /* main.cpp */,
 				53B72C2026E25DDD0084D89E /* Person.cpp */,
 				53B72C2126E25DDD0084D89E /* Person.hpp */,
+				5345988126E369F600F878CF /* Tweeter.hpp */,
 			);
 			path = TestCpp;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5345988426E36C6900F878CF /* Tweeter.cpp in Sources */,
 				53B72C2226E25DDD0084D89E /* Person.cpp in Sources */,
 				53CA141E26E244C400E00A00 /* main.cpp in Sources */,
 			);

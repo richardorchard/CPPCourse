@@ -7,13 +7,18 @@
 
 #include <iostream>
 #include <string>
-#include "Person.hpp"
+
+#include "Tweeter.hpp"
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World w!\n";
     
     Person p1("Richard", "Orchard", 45);
+    {
+    //Person p2;
+    }
     
     std::string name = p1.getName();
     

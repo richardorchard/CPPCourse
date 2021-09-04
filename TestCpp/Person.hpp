@@ -5,13 +5,11 @@
 //  Created by Richard Orchard on 03/09/2021.
 //
 
-#ifndef something_hpp
-#define something_hpp
 
 #include <stdio.h>
 #include <string>
 
-#endif /* something_hpp */
+
 
 
 class Person {
@@ -26,6 +24,9 @@ private:
 
 public:
     Person(std::string first, std::string last, int number);
+    Person();
+    ~Person();
+    
     std::string getName();
     
 };
