@@ -27,6 +27,7 @@
 /* Begin PBXFileReference section */
 		5345988126E369F600F878CF /* Tweeter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tweeter.hpp; sourceTree = "<group>"; };
 		5345988326E36C6900F878CF /* Tweeter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tweeter.cpp; sourceTree = "<group>"; };
+		5345988626E3B28200F878CF /* Status.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
 		53B72C2026E25DDD0084D89E /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
 		53B72C2126E25DDD0084D89E /* Person.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
 		53CA141A26E244C400E00A00 /* TestCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestCpp; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +69,7 @@
 				53B72C2026E25DDD0084D89E /* Person.cpp */,
 				53B72C2126E25DDD0084D89E /* Person.hpp */,
 				5345988126E369F600F878CF /* Tweeter.hpp */,
+				5345988626E3B28200F878CF /* Status.h */,
 			);
 			path = TestCpp;
 			sourceTree = "<group>";

@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
     
     Person p1("Richard", "Orchard", 45);
     {
-    //Person p2;
+        Person p2;
     }
     
     std::string name = p1.getName();
